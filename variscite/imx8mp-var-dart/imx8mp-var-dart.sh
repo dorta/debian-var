@@ -5,6 +5,13 @@ readonly SOC="mx8mp"
 readonly SOC_SERIES="imx8"
 readonly SOC_FAMILY="imx8m"
 
+#64 bit CROSS_COMPILER config and paths
+readonly G_CROSS_COMPILER_64BIT_NAME="arm-gnu-toolchain-12.2.rel1-x86_64-aarch64-none-linux-gnu"
+readonly G_CROSS_COMPILER_ARCHIVE_64BIT="${G_CROSS_COMPILER_64BIT_NAME}.tar.xz"
+readonly G_EXT_CROSS_64BIT_COMPILER_LINK="https://developer.arm.com/-/media/Files/downloads/gnu/12.2.rel1/binrel/${G_CROSS_COMPILER_ARCHIVE_64BIT}"
+readonly G_CROSS_COMPILER_64BIT_PREFIX="aarch64-none-linux-gnu-"
+readonly G_CROSS_COMPILER_64BIT_PATH="${G_TOOLS_PATH}/${G_CROSS_COMPILER_64BIT_NAME}/bin"
+
 # GIT repositories to fetch
 git_repos=(
 	"G_UBOOT"
