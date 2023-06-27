@@ -19,7 +19,14 @@ git_repos=(
 	"G_BCM_FW"
 	"G_IMXBOOT"
 	"G_FREERTOS_VAR"
+	"G_META_VARISCITE_BSP"
 )
+
+# meta-variscite-bsp
+readonly G_META_VARISCITE_BSP_SRC_DIR="${DEF_SRC_DIR}/meta-variscite-bsp"
+readonly G_META_VARISCITE_BSP_GIT="https://github.com/varigit/meta-variscite-bsp"
+readonly G_META_VARISCITE_BSP_BRANCH="langdale-var01"
+readonly G_META_VARISCITE_BSP_REV="2713315693f3b4339a6ec27299a18de3a1604b95"
 
 # U-Boot
 readonly G_UBOOT_SRC_DIR="${DEF_SRC_DIR}/uboot"
@@ -59,6 +66,10 @@ G_LINUX_DTB="freescale/imx8mp-var-dart-dt8mcustomboard.dtb
        freescale/imx8mp-var-dart-dt8mcustomboard-legacy-m7.dtb
        freescale/imx8mp-var-dart-dt8mcustomboard-m7.dtb
        "
+
+# BRCM Utils
+readonly BRCM_UTILS_DIR="${G_META_VARISCITE_BSP_SRC_DIR}/recipes-connectivity/bcm43xx-utils/bcm43xx-utils"
+
 # Broadcom BT/WIFI firmware
 readonly G_BCM_FW_SRC_DIR="${DEF_SRC_DIR}/bcmfw"
 readonly G_BCM_FW_GIT="https://github.com/varigit/bcm_4343w_fw.git"
