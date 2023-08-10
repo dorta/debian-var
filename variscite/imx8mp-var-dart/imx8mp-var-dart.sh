@@ -91,7 +91,7 @@ readonly ALSA_CONF_FILES_DIR="alsa-libs"
 readonly WESTON_PACKAGE_DIR="imx8m-vivante-g2d/weston-9"
 readonly IMX_GPU_VIV_DEFAULT_WL_PACKAGE="imx-gpu-viv-core"
 
-readonly G_IMX_CODEC_DIR="imxcodec-4.6.2"
+readonly G_IMX_CODEC_DIR="imxcodec-4.8.0"
 readonly G_IMX_PARSER_DIR="imxparser-4.6.2"
 readonly G_IMX_VPU_HANTRO_DIR="imxvpuhantro-1.23.0"
 readonly G_IMX_VPU_HANTRO_VC_DIR="imxvpuhantro-vc-1.3.0"
