@@ -65,6 +65,10 @@ G_LINUX_DTB="freescale/imx8mp-var-dart-dt8mcustomboard.dtb
        freescale/imx8mp-var-dart-dt8mcustomboard-legacy-m7.dtb
        freescale/imx8mp-var-dart-dt8mcustomboard-m7.dtb
        "
+
+# BRCM Utils
+readonly BRCM_UTILS_DIR="${G_META_VARISCITE_BSP_SRC_DIR}/recipes-connectivity/bcm43xx-utils/bcm43xx-utils"
+
 # Broadcom BT/WIFI firmware
 readonly G_BCM_FW_SRC_DIR="${DEF_SRC_DIR}/bcmfw"
 readonly G_BCM_FW_GIT="https://github.com/varigit/bcm_4343w_fw.git"
