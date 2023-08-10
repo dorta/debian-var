@@ -70,10 +70,15 @@ G_LINUX_DTB="freescale/imx8mp-var-dart-dt8mcustomboard.dtb
 readonly BRCM_UTILS_DIR="${G_META_VARISCITE_BSP_SRC_DIR}/recipes-connectivity/bcm43xx-utils/bcm43xx-utils"
 
 # Broadcom BT/WIFI firmware
-readonly G_BCM_FW_SRC_DIR="${DEF_SRC_DIR}/bcmfw"
-readonly G_BCM_FW_GIT="https://github.com/varigit/bcm_4343w_fw.git"
-readonly G_BCM_FW_BRANCH="8.2.0.16"
-readonly G_BCM_FW_REV="8081cd2bddb1569abe91eb50bd687a2066a33342"
+readonly G_BRCM_FW_SRC_DIR="${DEF_SRC_DIR}/brcmfw"
+readonly G_BRCM_FW_REV="11.39.0.18"
+readonly MODEL_LIST="${MACHINE}"
+readonly G_BRCM_LWB_FW_ARCHIVE="laird-lwb-fcc-firmware-${G_BRCM_FW_REV}.tar.bz2"
+readonly G_BRCM_LWB_FW_LINK="https://github.com/LairdCP/Sterling-LWB-and-LWB5-Release-Packages/releases/download/LRD-REL-${G_BRCM_FW_REV}/${G_BRCM_LWB_FW_ARCHIVE}"
+readonly G_BRCM_LWB_FW_SHA256SUM="f076de39385368849184036a4828051ea0ed4129c1ec115a45b05cd66605c337"
+readonly G_BRCM_LWB5_FW_ARCHIVE="laird-lwb5-fcc-firmware-${G_BRCM_FW_REV}.tar.bz2"
+readonly G_BRCM_LWB5_FW_LINK="https://github.com/LairdCP/Sterling-LWB-and-LWB5-Release-Packages/releases/download/LRD-REL-${G_BRCM_FW_REV}/${G_BRCM_LWB5_FW_ARCHIVE}"
+readonly G_BRCM_LWB5_FW_SHA256SUM="a9731660ea05bc7625e37314d7f3fd3f70b266aa21a07536baea82213cdfeec2"
 
 readonly G_GPU_IMX_VIV_PACKAGE_DIR="imx-gpu-viv-6.4.3.p1.4"
 readonly G_GPU_IMX_VIV_SDK_PACKAGE_DIR="imx-gpu-sdk-6.4.0.p2.0"
