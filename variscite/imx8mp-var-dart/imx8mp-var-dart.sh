@@ -27,6 +27,13 @@ readonly G_META_VARISCITE_BSP_GIT="https://github.com/varigit/meta-variscite-bsp
 readonly G_META_VARISCITE_BSP_BRANCH="mickledore-var01"
 readonly G_META_VARISCITE_BSP_REV="40ba61a78f91deae1011dfd63fbdb1786a15b1c2"
 
+# imx-mkimage
+readonly G_IMXBOOT_SRC_DIR="${DEF_SRC_DIR}/imx-mkimage"
+readonly G_IMXBOOT_GIT="https://github.com/nxp-imx/imx-mkimage.git"
+readonly G_IMXBOOT_BRANCH="lf-6.1.22_2.0.0"
+readonly G_IMXBOOT_REV="5cfd218012e080fb907d9cc301fbb4ece9bc17a9"
+readonly G_IMXBOOT_PATCHES="${G_VARISCITE_PATH}/${MACHINE}/imx-boot-tools/imx-boot/imx-mkimage-imx8m-soc.mak-add-dart-imx8mp-support.patch"
+
 # U-Boot
 readonly G_UBOOT_SRC_DIR="${DEF_SRC_DIR}/uboot"
 readonly G_UBOOT_GIT="https://github.com/varigit/uboot-imx.git"
@@ -106,12 +113,6 @@ BOOTLOADER_OFFSET=32
 
 BOOT_DTB="imx8mp-var-dart-dt8mcustomboard.dtb"
 DEFAULT_BOOT_DTB="imx8mp-var-dart-dt8mcustomboard.dtb"
-
-readonly G_IMXBOOT_SRC_DIR="${DEF_SRC_DIR}/imx-mkimage"
-readonly G_IMXBOOT_GIT="https://github.com/nxp-imx/imx-mkimage.git"
-readonly G_IMXBOOT_BRANCH="lf-5.10.52_2.1.0"
-readonly G_IMXBOOT_REV="1112c88470f339dc631e2a7117087f416af6d6b5"
-readonly G_IMXBOOT_PATCHES="${G_VARISCITE_PATH}/${MACHINE}/imx-boot-tools/imx-boot/imx-mkimage-imx8m-soc.mak-add-dart-imx8mp-support.patch"
 
 HDMI=no
 TEE_LOAD_ADDR=0x56000000
