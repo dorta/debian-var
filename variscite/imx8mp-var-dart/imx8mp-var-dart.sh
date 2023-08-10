@@ -146,6 +146,9 @@ readonly G_CM_GCC_ARCHIVE="${G_CM_GCC_NAME}-x86_64-linux.tar.bz2"
 readonly G_CM_GCC_LINK="https://developer.arm.com/-/media/Files/downloads/gnu-rm/10.3-2021.07/${G_CM_GCC_ARCHIVE}"
 readonly G_CM_GCC_SHA256SUM="8c5b8de344e23cd035ca2b53bbf2075c58131ad61223cae48510641d3e556cea"
 
+# BlueZ
+readonly BLUEZ5_DIR="${G_META_VARISCITE_BSP_SRC_DIR}/recipes-connectivity/bluez5/files"
+
 #rootfs package group control
 #Default compilation of rootfs (Console Base + Multimedia + Graphics)
 #set package group below from G_DEBIAN_DISTRO_FEATURE_XX="n" to disable it
