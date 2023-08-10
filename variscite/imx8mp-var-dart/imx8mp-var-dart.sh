@@ -88,7 +88,7 @@ readonly G2D_PACKAGE_DIR="imx-gpu-g2d-6.4.11.p1.2"
 readonly IMX_FIRMWARE_VERSION="8.20"
 readonly XCVR_FIRMWARE_PACKAGE="imx-firmware-xcvr"
 readonly ALSA_CONF_FILES_DIR="alsa-libs"
-readonly WESTON_PACKAGE_DIR="imx8m-vivante-g2d/weston-9"
+readonly WESTON_PACKAGE_DIR="weston/imx8m-vivante-g2d/weston-11"
 readonly IMX_GPU_VIV_DEFAULT_WL_PACKAGE="imx-gpu-viv-core"
 
 readonly G_IMX_CODEC_DIR="imxcodec-4.8.0"
