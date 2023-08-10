@@ -95,7 +95,7 @@ readonly G_IMX_CODEC_DIR="imxcodec-4.8.0"
 readonly G_IMX_PARSER_DIR="imxparser-4.8.0"
 readonly G_IMX_VPU_HANTRO_DIR="imxvpuhantro-1.29.0"
 readonly G_IMX_VPU_HANTRO_VC_DIR="imxvpuhantro-vc-1.9.0"
-readonly G_IMX_VPU_WRAPPER_DIR="imxvpuwrap-4.6.2"
+readonly G_IMX_VPU_WRAPPER_DIR="imxvpuwrap-4.8.0"
 readonly G_IMX_NN_DIR="imx-nn-1.2.0"
 
 IMXGSTPLG="imx-gst1.0-plugin-mx8mp"
