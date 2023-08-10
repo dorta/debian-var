@@ -18,7 +18,7 @@ git_repos=(
 	"G_LINUX_KERNEL"
 	"G_BCM_FW"
 	"G_IMXBOOT"
-       "G_FREERTOS_VAR"
+	"G_FREERTOS_VAR"
 )
 
 # U-Boot
