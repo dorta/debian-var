@@ -41,6 +41,7 @@ readonly G_UBOOT_BRANCH="lf_v2023.04_var01"
 readonly G_UBOOT_REV="341b473039306055c34e154af070e941d7cafb14"
 G_UBOOT_DEF_CONFIG_MMC="imx8mp_var_dart_defconfig"
 readonly G_UBOOT_NAME_FOR_EMMC='imx-boot-sd.bin'
+readonly UBOOT_FW_UTILS_DIR="${G_META_VARISCITE_BSP_SRC_DIR}/recipes-bsp/u-boot/u-boot-fw-utils/${MACHINE}"
 
 # Linux kernel
 readonly KERNEL_IMAGE_TYPE="Image.gz"
