@@ -19,7 +19,14 @@ git_repos=(
 	"G_BCM_FW"
 	"G_IMXBOOT"
 	"G_FREERTOS_VAR"
+	"G_META_VARISCITE_BSP_IMX"
 )
+
+# meta-variscite-bsp-imx
+readonly G_META_VARISCITE_BSP_IMX_SRC_DIR="${DEF_SRC_DIR}/meta-variscite-bsp-imx"
+readonly G_META_VARISCITE_BSP_IMX_GIT="https://github.com/varigit/meta-variscite-bsp-imx"
+readonly G_META_VARISCITE_BSP_IMX_BRANCH="mickledore-var01"
+readonly G_META_VARISCITE_BSP_IMX_REV="40ba61a78f91deae1011dfd63fbdb1786a15b1c2"
 
 # U-Boot
 readonly G_UBOOT_SRC_DIR="${DEF_SRC_DIR}/uboot"
