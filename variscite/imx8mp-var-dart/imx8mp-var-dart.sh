@@ -19,9 +19,16 @@ git_repos=(
 	"G_BCM_FW"
 	"G_IMXBOOT"
 	"G_FREERTOS_VAR"
+	"G_META_VARISCITE_BSP_COMMON"
 	"G_META_VARISCITE_BSP_IMX"
 	"G_IMX_ATF"
 )
+
+# meta-variscite-bsp-common
+readonly G_META_VARISCITE_BSP_COMMON_SRC_DIR="${DEF_SRC_DIR}/meta-variscite-bsp-common"
+readonly G_META_VARISCITE_BSP_COMMON_GIT="https://github.com/varigit/meta-variscite-bsp-common"
+readonly G_META_VARISCITE_BSP_COMMON_BRANCH="mickledore-var01"
+readonly G_META_VARISCITE_BSP_COMMON_REV="61a9f1e114642f144ad05a931eff9fa7c3bf81ef"
 
 # meta-variscite-bsp-imx
 readonly G_META_VARISCITE_BSP_IMX_SRC_DIR="${DEF_SRC_DIR}/meta-variscite-bsp-imx"
