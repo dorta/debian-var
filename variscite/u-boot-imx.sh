@@ -148,8 +148,12 @@ function make_uboot()
 			${DEF_SRC_DIR}/imx-mkimage/${G_UBOOT_NAME_FOR_EMMC}
 		cp ${G_UBOOT_NAME_FOR_EMMC} ${2}/${G_UBOOT_NAME_FOR_EMMC}
 	elif [ "${MACHINE}" = "imx8mp-var-dart" ]; then
-		cp ${G_VARISCITE_PATH}/${MACHINE}/imx-boot-tools/bl31-imx8mp.bin \
-			src/imx-mkimage/iMX8M/bl31.bin
+        cd ${DEF_SRC_DIR}/imx-atf
+        LDFLAGS="" make CROSS_COMPILE=${G_CROSS_COMPILER_PATH}/${G_CROSS_COMPILER_PREFIX} \
+                   PLAT=imx8mp bl31
+        cd -
+        cp ${DEF_SRC_DIR}/imx-atf/build/imx8mp/release/bl31.bin \
+           ${DEF_SRC_DIR}/imx-mkimage/iMX8M/bl31.bin
 		cp ${G_VARISCITE_PATH}/${MACHINE}/imx-boot-tools/lpddr4_pmu_train_1d_dmem_202006.bin \
 			src/imx-mkimage/iMX8M/lpddr4_pmu_train_1d_dmem_202006.bin
 		cp ${G_VARISCITE_PATH}/${MACHINE}/imx-boot-tools/lpddr4_pmu_train_1d_imem_202006.bin \
