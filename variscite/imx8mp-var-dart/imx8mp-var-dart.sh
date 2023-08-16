@@ -20,6 +20,7 @@ git_repos=(
 	"G_IMXBOOT"
 	"G_FREERTOS_VAR"
 	"G_META_VARISCITE_BSP_IMX"
+	"G_IMX_ATF"
 )
 
 # meta-variscite-bsp-imx
@@ -27,6 +28,12 @@ readonly G_META_VARISCITE_BSP_IMX_SRC_DIR="${DEF_SRC_DIR}/meta-variscite-bsp-imx
 readonly G_META_VARISCITE_BSP_IMX_GIT="https://github.com/varigit/meta-variscite-bsp-imx"
 readonly G_META_VARISCITE_BSP_IMX_BRANCH="mickledore-var01"
 readonly G_META_VARISCITE_BSP_IMX_REV="40ba61a78f91deae1011dfd63fbdb1786a15b1c2"
+
+#imx-atf
+readonly G_IMX_ATF_SRC_DIR="${DEF_SRC_DIR}/imx-atf"
+readonly G_IMX_ATF_GIT="https://github.com/varigit/imx-atf.git"
+readonly G_IMX_ATF_BRANCH="lf_v2.8_var01"
+readonly G_IMX_ATF_REV="8ea3d56c4fd164b369023f5b7a8ca99bd5d484a4"
 
 # imx-mkimage
 readonly G_IMXBOOT_SRC_DIR="${DEF_SRC_DIR}/imx-mkimage"
