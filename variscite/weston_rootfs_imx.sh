@@ -4,8 +4,8 @@ function copy_common_packages() {
 	copy_required_package "var-mii_1.0"
 
 	# imx-firmware
-	if [ ! -z "${IMX_FIRMWARE_VERSION}" ]; then
-		cp -r ${G_VARISCITE_PATH}/deb/imx-firmware-${IMX_FIRMWARE_VERSION}/* \
+	if [ ! -z "${G_IMX_FIRMWARE_VERSION}" ]; then
+		cp -r ${G_VARISCITE_PATH}/deb/imx-firmware-${G_IMX_FIRMWARE_VERSION}/* \
 			${ROOTFS_BASE}/srv/local-apt-repository
 	fi
 }
