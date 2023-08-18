@@ -13,7 +13,7 @@ function copy_common_packages() {
 # copy display and gpu packages
 function copy_packages_display() {
 	# cairo
-	copy_optional_package "${CAIRO_DIR}"
+	copy_optional_package "${G_CAIRO_DIR}"
 
 	# libdrm
 	copy_optional_package "${LIBDRM_DIR}"
