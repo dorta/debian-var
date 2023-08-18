@@ -104,6 +104,9 @@ readonly G2D_PACKAGE_DIR="imx-gpu-g2d-6.4.3.p2.2"
 readonly G_IMX_FIRMWARE_VERSION="8.20"
 readonly G_XCVR_FIRMWARE_PACKAGE="imx-firmware-xcvr"
 
+# Cairo 2D graphics library with support for multiple output devices
+readonly G_CAIRO_DIR="cairo"
+
 readonly ALSA_CONF_FILES_DIR="alsa-libs"
 readonly WESTON_PACKAGE_DIR="imx8m-vivante-g2d/weston-9"
 readonly IMX_GPU_VIV_DEFAULT_WL_PACKAGE="imx-gpu-viv-core"
