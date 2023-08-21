@@ -19,7 +19,7 @@ function copy_packages_display() {
 	copy_optional_package "${G_LIBDRM_DIR}"
 
 	# waylandprotocols
-	copy_optional_package "${WAYLAND_PROTOCOL_DIR}"
+	copy_optional_package "${G_WAYLAND_PROTOCOL_DIR}"
 
 	# weston
 	copy_optional_package "${WESTON_PACKAGE_DIR}"
