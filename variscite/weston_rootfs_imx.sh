@@ -16,7 +16,7 @@ function copy_packages_display() {
 	copy_optional_package "${G_CAIRO_DIR}"
 
 	# libdrm
-	copy_optional_package "${LIBDRM_DIR}"
+	copy_optional_package "${G_LIBDRM_DIR}"
 
 	# waylandprotocols
 	copy_optional_package "${WAYLAND_PROTOCOL_DIR}"
