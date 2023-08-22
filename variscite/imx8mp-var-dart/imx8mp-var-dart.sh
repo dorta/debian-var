@@ -98,7 +98,10 @@ readonly G_GPU_IMX_VIV_PACKAGE_DIR="imx-gpu-viv-6.4.3.p1.4"
 readonly G_GPU_IMX_VIV_SDK_PACKAGE_DIR="imx-gpu-sdk-6.4.0.p2.0"
 readonly GST_MM_VERSION="MM_04.06.02_2108_L5.10.y"
 readonly G_GST_PLUGINS_BAD_DIR="MM_04.06.02_2108_L5.10.y"
-readonly G2D_PACKAGE_DIR="imx-gpu-g2d-6.4.3.p2.2"
+
+# i.MX Graphics G2D libraries for i.MX 8
+readonly G_G2D_PACKAGE_DIR="imx-gpu-g2d-6.4.11.p1.2"
+G2DPACKAGE="imx-gpu-g2d"
 
 # i.MX Firmware including firmware for VPU, DDR, EPDC, HDMI, DP (Display Port), and SDMA
 readonly G_IMX_FIRMWARE_VERSION="8.20"
@@ -128,7 +131,6 @@ readonly G_IMX_VPU_WRAPPER_DIR="imxvpuwrap-4.6.2"
 readonly G_IMX_NN_DIR="imx-nn-1.2.0"
 
 IMXGSTPLG="imx-gst1.0-plugin-mx8mp"
-G2DPACKAGE="imx-gpu-g2d"
 
 # Flashing variables
 BOOTLOADER_OFFSET=32
