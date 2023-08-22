@@ -25,7 +25,7 @@ function copy_packages_display() {
 	copy_optional_package "${G_WESTON_PACKAGE_DIR}"
 
 	# G2D_Packages
-	copy_optional_package "${G2D_PACKAGE_DIR}"
+	copy_optional_package "${G_G2D_PACKAGE_DIR}"
 
 	# Vivante GPU libgbm1 libraries
 	copy_optional_package "${G_GPU_IMX_VIV_GBM_DIR}"
