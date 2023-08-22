@@ -114,7 +114,10 @@ readonly G_LIBDRM_DIR="libdrm-2.4.114"
 readonly G_WAYLAND_PROTOCOL_DIR="wayland-protocols-1.31"
 
 readonly ALSA_CONF_FILES_DIR="alsa-libs"
-readonly WESTON_PACKAGE_DIR="imx8m-vivante-g2d/weston-9"
+
+# Weston
+readonly G_WESTON_PACKAGE_DIR="weston/imx8mp-vivante-g2d/weston-11"
+
 readonly IMX_GPU_VIV_DEFAULT_WL_PACKAGE="imx-gpu-viv-core"
 
 readonly G_IMX_CODEC_DIR="imxcodec-4.6.2"
