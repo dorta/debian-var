@@ -94,10 +94,12 @@ readonly G_BCM_FW_GIT="https://github.com/varigit/bcm_4343w_fw.git"
 readonly G_BCM_FW_BRANCH="8.2.0.16"
 readonly G_BCM_FW_REV="8081cd2bddb1569abe91eb50bd687a2066a33342"
 
-readonly G_GPU_IMX_VIV_PACKAGE_DIR="imx-gpu-viv-6.4.3.p1.4"
 readonly G_GPU_IMX_VIV_SDK_PACKAGE_DIR="imx-gpu-sdk-6.4.0.p2.0"
 readonly GST_MM_VERSION="MM_04.06.02_2108_L5.10.y"
 readonly G_GST_PLUGINS_BAD_DIR="MM_04.06.02_2108_L5.10.y"
+
+# i.MX Graphics
+readonly G_GPU_IMX_VIV_PACKAGE_DIR="imx-gpu-viv-6.4.11.p1.2"
 
 # i.MX Graphics G2D libraries for i.MX 8
 readonly G_G2D_PACKAGE_DIR="imx-gpu-g2d-6.4.11.p1.2"
