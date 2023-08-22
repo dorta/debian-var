@@ -113,6 +113,9 @@ readonly G_CAIRO_DIR="cairo"
 # Libdrm Direct Rendering Manager
 readonly G_LIBDRM_DIR="libdrm-2.4.114"
 
+# Vivante GPU libgbm1 libraries
+readonly G_GPU_IMX_VIV_GBM_DIR="libgbm1_22.3.6-1+deb12u1"
+
 # Wayland Protocols
 readonly G_WAYLAND_PROTOCOL_DIR="wayland-protocols-1.31"
 
