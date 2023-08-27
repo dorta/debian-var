@@ -158,7 +158,7 @@ function rootfs_install_var_bt {
 	install -d ${ROOTFS_BASE}/etc/bluetooth
 	install -m 0755 ${BRCM_UTILS_DIR}/${MACHINE}/bcm43xx-bt \
 		${ROOTFS_BASE}/etc/bluetooth
-	install -m 0644 ${BRCM_UTILS_DIR}/variscite-bt.service \
+	install -m 0644 ${VAR_WIRELESS_UTILS_DIR}/variscite-bt.service \
 		${ROOTFS_BASE}/lib/systemd/system
 	ln -sf /lib/systemd/system/variscite-bt.service \
 		${ROOTFS_BASE}/etc/systemd/system/multi-user.target.wants/variscite-bt.service
@@ -169,7 +169,7 @@ function rootfs_install_var_wifi() {
 	install -d ${ROOTFS_BASE}/etc/wifi
 	install -m 0755 ${BRCM_UTILS_DIR}/${MACHINE}/bcm43xx-wifi \
 		${ROOTFS_BASE}/etc/wifi
-	install -m 0644 ${BRCM_UTILS_DIR}/variscite-wifi.service \
+	install -m 0644 ${VAR_WIRELESS_UTILS_DIR}/variscite-wifi.service \
 		${ROOTFS_BASE}/lib/systemd/system
 	ln -sf /lib/systemd/system/variscite-wifi.service \
 		${ROOTFS_BASE}/etc/systemd/system/multi-user.target.wants/variscite-wifi.service
