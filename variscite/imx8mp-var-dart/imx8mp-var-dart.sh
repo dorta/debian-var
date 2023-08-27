@@ -61,6 +61,9 @@ readonly UBOOT_FW_UTILS_DIR="${G_META_VARISCITE_BSP_IMX_SRC_DIR}/recipes-bsp/u-b
 # BlueZ
 readonly BLUEZ5_DIR="${G_META_VARISCITE_BSP_COMMON_SRC_DIR}/recipes-connectivity/bluez5/files"
 
+# BRCM Utils
+readonly BRCM_UTILS_DIR="${G_META_VARISCITE_BSP_IMX_SRC_DIR}/recipes-connectivity/bcm43xx-utils/bcm43xx-utils"
+
 # Linux kernel
 readonly KERNEL_IMAGE_TYPE="Image.gz"
 readonly KERNEL_BOOT_IMAGE_SRC="arch/arm64/boot/"
