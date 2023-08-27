@@ -58,6 +58,9 @@ G_UBOOT_DEF_CONFIG_MMC="imx8mp_var_dart_defconfig"
 readonly G_UBOOT_NAME_FOR_EMMC='imx-boot-sd.bin'
 readonly UBOOT_FW_UTILS_DIR="${G_META_VARISCITE_BSP_IMX_SRC_DIR}/recipes-bsp/u-boot/u-boot-fw-utils/${MACHINE}"
 
+# BlueZ
+readonly BLUEZ5_DIR="${G_META_VARISCITE_BSP_COMMON_SRC_DIR}/recipes-connectivity/bluez5/files"
+
 # Linux kernel
 readonly KERNEL_IMAGE_TYPE="Image.gz"
 readonly KERNEL_BOOT_IMAGE_SRC="arch/arm64/boot/"
