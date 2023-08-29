@@ -141,7 +141,9 @@ readonly G_WESTON_PACKAGE_DIR="weston/imx8mp-vivante-g2d/weston-11"
 
 readonly IMX_GPU_VIV_DEFAULT_WL_PACKAGE="imx-gpu-viv-core"
 
-readonly G_IMX_CODEC_DIR="imxcodec-4.6.2"
+# i.MX optimized Audio and Video core codec libraries
+readonly G_IMX_CODEC_DIR="imxcodec-4.8.0"
+
 readonly G_IMX_PARSER_DIR="imxparser-4.6.2"
 readonly G_IMX_VPU_HANTRO_DIR="imxvpuhantro-1.23.0"
 readonly G_IMX_VPU_HANTRO_VC_DIR="imxvpuhantro-vc-1.3.0"
