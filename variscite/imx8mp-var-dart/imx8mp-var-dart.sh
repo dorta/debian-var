@@ -144,7 +144,9 @@ readonly IMX_GPU_VIV_DEFAULT_WL_PACKAGE="imx-gpu-viv-core"
 # i.MX optimized Audio and Video core codec libraries
 readonly G_IMX_CODEC_DIR="imxcodec-4.8.0"
 
-readonly G_IMX_PARSER_DIR="imxparser-4.6.2"
+# i.MX optimized core parser
+readonly G_IMX_PARSER_DIR="imxparser-4.8.0"
+
 readonly G_IMX_VPU_HANTRO_DIR="imxvpuhantro-1.23.0"
 readonly G_IMX_VPU_HANTRO_VC_DIR="imxvpuhantro-vc-1.3.0"
 readonly G_IMX_VPU_WRAPPER_DIR="imxvpuwrap-4.6.2"
