@@ -151,6 +151,9 @@ protected_install var-mii
 # wayland-protocols
 protected_install wayland-protocols
 
+# weston
+protected_install weston
+
 # Install k3conf
 if [ ! -z "${G_K3CONF_PACKAGE_DIR}" ]; then
 	protected_install k3conf
