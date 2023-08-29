@@ -150,7 +150,9 @@ readonly G_IMX_PARSER_DIR="imxparser-4.8.0"
 # i.MX VPU Hantro libraries for i.MX 8M Quad, 8M Mini, and 8M Plus
 readonly G_IMX_VPU_HANTRO_DIR="imxvpuhantro-1.29.0"
 
-readonly G_IMX_VPU_HANTRO_VC_DIR="imxvpuhantro-vc-1.3.0"
+# i.MX VPU Hantro vc8000e Encoder libraries for i.MX 8M Plus
+readonly G_IMX_VPU_HANTRO_VC_DIR="imxvpuhantro-vc-1.9.0"
+
 readonly G_IMX_VPU_WRAPPER_DIR="imxvpuwrap-4.6.2"
 readonly G_IMX_NN_DIR="imx-nn-1.2.0"
 
