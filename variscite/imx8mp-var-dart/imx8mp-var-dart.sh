@@ -107,10 +107,6 @@ readonly G_BRCM_LWB5_FW_ARCHIVE="laird-lwb5-fcc-firmware-${G_BRCM_FW_REV}.tar.bz
 readonly G_BRCM_LWB5_FW_LINK="https://github.com/LairdCP/Sterling-LWB-and-LWB5-Release-Packages/releases/download/LRD-REL-${G_BRCM_FW_REV}/${G_BRCM_LWB5_FW_ARCHIVE}"
 readonly G_BRCM_LWB5_FW_SHA256SUM="a9731660ea05bc7625e37314d7f3fd3f70b266aa21a07536baea82213cdfeec2"
 
-readonly G_GPU_IMX_VIV_SDK_PACKAGE_DIR="imx-gpu-sdk-6.4.0.p2.0"
-readonly GST_MM_VERSION="MM_04.06.02_2108_L5.10.y"
-readonly G_GST_PLUGINS_BAD_DIR="MM_04.06.02_2108_L5.10.y"
-
 # i.MX Graphics
 readonly G_GPU_IMX_VIV_PACKAGE_DIR="imx-gpu-viv-6.4.11.p1.2"
 
