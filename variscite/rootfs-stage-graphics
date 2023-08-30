@@ -73,6 +73,9 @@ then
 	protected_install powervr-graphics
 fi
 
+# wayland-protocols
+protected_install wayland-protocols
+
 protected_install weston
 
 
