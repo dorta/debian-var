@@ -76,8 +76,8 @@ fi
 # wayland-protocols
 protected_install wayland-protocols
 
+# weston
 protected_install weston
-
 
 # GPU SDK
 if [ ! -z "${G_GPU_IMX_VIV_SDK_PACKAGE_DIR}" ]
