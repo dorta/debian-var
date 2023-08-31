@@ -55,6 +55,11 @@ if [ ! -z "${G_IMX_VPU_HANTRO_DIR}" ]; then
 	protected_install imx-vpu-hantro-dec
 fi
 
+# i.MX VPU Hantro vc8000e Encoder libraries for i.MX 8M Plus
+if [ ! -z "${G_IMX_VPU_HANTRO_VC_DIR}" ]; then
+	protected_install imx-vpu-hantro-vc
+fi
+
 # gstreamer
 protected_install gstreamer1.0-plugins-bad
 protected_install gstreamer1.0-plugins-base
