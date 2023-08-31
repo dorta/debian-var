@@ -45,6 +45,11 @@ if [ ! -z "${G_IMX_CODEC_DIR}" ]; then
 	protected_install imx-codec
 fi
 
+# i.MX optimized core parser
+if [ ! -z "${G_IMX_PARSER_DIR}" ]; then
+	protected_install imx-parser
+fi
+
 # gstreamer
 protected_install gstreamer1.0-plugins-bad
 protected_install gstreamer1.0-plugins-base
