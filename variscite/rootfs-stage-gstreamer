@@ -40,6 +40,11 @@ function protected_install()
 # update packages and install base
 apt-get update || apt-get upgrade
 
+# i.MX optimized Audio and Video core codec libraries
+if [ ! -z "${G_IMX_CODEC_DIR}" ]; then
+	protected_install imx-codec
+fi
+
 # gstreamer
 protected_install gstreamer1.0-plugins-bad
 protected_install gstreamer1.0-plugins-base
