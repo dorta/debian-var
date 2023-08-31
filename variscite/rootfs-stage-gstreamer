@@ -60,6 +60,11 @@ if [ ! -z "${G_IMX_VPU_HANTRO_VC_DIR}" ]; then
 	protected_install imx-vpu-hantro-vc
 fi
 
+# i.MX VPU Wrapper
+if [ ! -z "${G_IMX_VPU_WRAPPER_DIR}" ]; then
+	protected_install imx-vpuwrap-*
+fi
+
 # gstreamer
 protected_install gstreamer1.0-plugins-bad
 protected_install gstreamer1.0-plugins-base
